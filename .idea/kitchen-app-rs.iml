@@ -2,7 +2,11 @@
 <module type="EMPTY_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/authenticator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cart_manager/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kitchen-app/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tuser_interface/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
