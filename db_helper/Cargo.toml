@@ -1,0 +1,8 @@
+[package]
+name = "db_helper"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+argon2 = {workspace = true}
+rusqlite = {workspace = true}

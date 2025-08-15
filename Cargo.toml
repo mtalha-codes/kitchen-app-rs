@@ -1,14 +1,16 @@
 [workspace]
-members = ["authenticator","cart_manager", "db_pipeline","kitchen-app", "tuser_interface"]
+members = ["authenticator","cart_manager", "db_helper","kitchen-app", "tuser_interface"]
 default-members = ["kitchen-app"]
 resolver = "2"
 
 
 [workspace.dependencies]
 argon2 = "0.5.3"
-color-eyre = "0.6.5"
 thiserror = "2.0.14"
-ratatui = {version = "0.29.0", features = ["all-widgets"]}
-turso = "0.1.3"
-crossterm = "0.29.0" # dependency for ratatui; as the docs say.
 tokio = {version = "1.47.1", features = ["full"]}
+email_syntax_verify_opt = "0.1.0"
+pval = "0.1.1"
+rusqlite = { version = "0.37.0", features = ["bundled-full"]}
+ratatui = {version = "0.29.0", features = ["all-widgets"]}
+crossterm = "0.29.0"
+color-eyre = "0.6.5"

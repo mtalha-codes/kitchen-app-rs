@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+argon2 = {workspace = true}
+pval = {workspace = true}
+email_syntax_verify_opt = {workspace = true}
+tokio = {workspace = true}
